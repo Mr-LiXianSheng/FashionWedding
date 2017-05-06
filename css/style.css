@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+img{display: block; border:none;}
+li{list-style:none;}
+a{text-decoration:none;}
+
+.header{background:#000; width:100%;filter:alpha(opacity=50);opacity:.5; position:absolute; height:80px;top:20px; left:0px;}
+.nav{width:1095px; margin:0 auto; overflow:hidden; padding:0 0 0 95px;}
+.nav a.logo{position:absolute;}
+.nav ul{padding:0 0 0 271px; position:absolute; top:20px;}
+.nav li{float:left; width:104px; text-align:center;}
+.nav a.home{background:url(../image/a_bj.jpg) no-repeat;}
+.nav li a{display:block; font:14px "Adobe 宋体 Std L"; font-weight:bold; color:#FFF; height:53px; padding:27px 0 0 0;}
+.nav li a span{font-weight:normal; font:10px Arial; display:block;}
+.nav li a:hover{background:url(../image/a_bj.jpg) no-repeat}
+
+.banner{background:url(../image/banner.jpg) center no-repeat; height:823px;}
+
+.contact{width:1190px; margin:auto; position:absolute; left:0px; right:0px; _left:auto; _right:auto; *+left:auto; *+right:auto; top: 753px;}
+.contact_list{background:#FFF; height:130px; border-radius:6px; width:1160px; padding:0 0 0 30px;}
+.hotline,.service,.touch{float:left;padding:40px 0 0 0px; height:90px;}
+.hotline h1,.service h1,.touch h1{font:20px "微软雅黑"; color:#145128; font-weight:bold}
+.hotline h1 span,.service h1 span,.touch h1 span{color:#145128; font:13px Arial; font-weight:bold;padding:0 0 0 10px;}
+.service p,.touch p{color:#145128; font:20px "微软雅黑"; font-weight:bold}
+.hotline{background:url(../image/shadow04.png) right no-repeat; padding:40px 0 0 29px; width:265px;}
+.service{background:url(../image/shadow04.png) right no-repeat; width: 422px;}
+.service img{float:left; margin:-20px 29px 0 29px; display:inline;}
+.touch{padding:40px 0 0 30px;}
+.shadow_er{background:url(../image/shadow03.png) bottom no-repeat; height:29px;}
+
+
+.topvebanner {
+	border:9px solid #232323;
+	float: left;
+	width: 423px;
+	height: 453px;
+}
+.topvebanner ul {
+	margin: 0;
+	padding: 0;
+}
+#myjQuery {
+	background: #000;
+	overflow: hidden;
+	position: relative;
+	height: 453px
+}
+#myjQueryContent {
+	overflow: hidden;
+}
+#myjQueryContent div {
+	position: absolute;
+}
+#myjQueryContent .smask {
+	z-index: -1;
+}
+#myjQueryNav {
+	display: block;
+	overflow: hidden;
+	width: 81px;
+	height: 8px;
+	position: absolute;
+	top: 435px;
+	right: 10px;
+	z-index: 5;
+}
+#myjQueryNav li {
+	display: block;
+	FLOAT: left;
+	width: 15px;
+	cursor: pointer;
+	height: 8px;
+	TEXT-ALIGN: center;
+	margin-left: 1px;
+	background: #666;
+	color: #fff;
+}
+#myjQueryNav .nbg {
+	background: #666;
+}
+#myjQueryNav a {
+	display: block;
+	z-index: 12;
+	MARGIN: 0px auto;
+	text-transform: uppercase;
+	width: 45px;
+	COLOR: #ffffff;
+	LINE-height: 22px;
+	position: relative;
+	height: 22px;
+	z-index: 20;
+}
+#myjQueryNav .current {
+	background: #347e0d;
+}
+#myjQueryNav .current a {
+	COLOR: #fff;
+}
+#myjQuery #flow {
+	background: url(../images/fcurrent.gif) no-repeat;
+	margin-top: -33px;
+	width: 45px;
+	height: 22px;
+	z-index: 22;
+	left: 652px;
+	position: absolute;
+}
+
+
+.journalism{width:1190px; margin:0 auto; padding:112px 0 20px 0; overflow:hidden}
+.journalism_right{width:724px; overflow:hidden; float:right}
+.latest h3,.hot h3,.wedding h3{overflow:hidden; height:32px; font:25px Impact; color:#646464}
+.latest li a i,.hot li a i,.wedding li a i{overflow:hidden; font:46px Impact; color:#efefef}
+.latest h3 b,.hot h3 b,.wedding h3 b{float:left}
+.latest h3 span,.hot h3 span,.wedding h3 span{float:left; color:#868686;}
+.latest h3 em,.hot h3 em,.wedding h3 em{float:left; font-style:normal; font:16px "微软雅黑"; color:#a2a2a2; padding:0 0 0 10px; line-height:32px;}
+.latest h3 a,.hot h3 a,.wedding h3 a{float:right;hidden; font:14px "微软雅黑"; line-height:32px; color:#999}
+.hot{padding:0 18px 0 0}
+.hot,.wedding{width:353px; float:left;}
+.hot li,.wedding li{border-bottom:1px solid #efefef;}
+.hot li span,.wedding li span{float:right; font:14px/28px "微软雅黑"; color:#999999}
+.hot li a,.wedding li a{ font:14px/28px "微软雅黑"; color:#999999}
+.hot li a:hover,.wedding li a:hover{color:#e70808; text-decoration:underline}
+
+.latest li{overflow:hidden;height:63px;border-bottom:1px solid #efefef; padding:18px 0px; _padding:12px 0 18px 0;}
+.latest .qc{border:none;}
+.hot .qc{border:none;}
+.wedding .qc{border:none;}
+.latest li a{position:relative; display:block; width:724px;}
+.latest li a span{font:22px "微软雅黑"; color:#333333}
+.latest li a p{font:12px "微软雅黑"; color:#666; padding:0 98px 0 0; line-height:16px;}
+.latest li a img{float:left; padding:0 20px 0 0}
+.latest li a i{position:absolute; right:0px; top:0px;}
+
+
+.showcase{width:1190px; margin:0 auto}
+.location{width:1190px; margin:0 auto}
+
+.showcase h3,.location h3{background:#191919; height:36px;}
+.showcase h3 b,.location h3 b{ color:#FFF; font:25px/36px Impact; padding:0 0 0 20px; float:left;}
+.showcase h3 span,.location h3 span{ font:16px "微软雅黑";padding:10px 0 0 10px; float:left; color:#FFF}
+.showcase h3 a,.location h3 a{ float:right; font:14px/36px "微软雅黑";padding:0 20px 0 0; color:#FFF}
+
+#slides_a{width:1190px; overflow:hidden; position:relative;margin:20px 0px;}
+#slides_b{width:1190px; overflow:hidden; position:relative;margin:20px 0px;}
+.slides_container{padding:0 0 0 116px;}
+.slides_container li{float:left;}
+.slides_container li a{ display:inline-block; float:left}
+.slides_container li a span{ display:block; cursor:pointer; height:208px; line-height:208px; background:#000; color:#fff; position:absolute; width:306px; top:0px;filter:alpha(opacity=60); opacity:.6; display:none; text-align:center}
+.slides_container li a:hover span{ display:block}
+.middle{padding:0px 20px;}
+
+.pr{background:#ffbaba; width:115px; height:208px; position:absolute; top:0px; left:0px; z-index:20;}
+.ne{background:#ffbaba; width:115px; height:208px; position:absolute; top:0px; right:0px; z-index:20;}
+
+.prev{ background:url(../image/arr.png) no-repeat; width:36px; height:64px; display:block; left:39px; top:68px; position:absolute; text-indent:-999em; outline:none; z-index:11;}
+
+.next{ background:url(../image/arr.png) -39px 0px no-repeat; width:36px; height:64px; display:block; right:39px; top:68px; position:absolute; text-indent:-999em;outline:none;z-index:11;}
+
+
+.show{width:1190px; margin:0 auto;padding:0 0 22px 0;position:relative;}
+.show_print span{ position:absolute; right:32px; bottom:86px; font:28px Georgia; color:#fff}
+.show_shadow{background:url(../image/show_shadow.png) bottom right no-repeat; height:38px;}
+
+.footer{background:#000;}
+.footer_Navigation{border-bottom:1px solid #333; overflow:hidden;padding:20px 0 18px 0;width:1190px; margin:0 auto}
+.footer_Navigation dl{float:left;padding:0 65px 0 0;}
+.footer_Navigation dl dt{width:186px; height:26px; background:#333333; color:#FFF; text-align:center; font:18px/26px Arial; margin:0 0 16px 0}
+.footer_Navigation dl dd{text-align:right;line-height:18px;}
+.footer_Navigation dl dd a{ color:#d8d8d8; font:14px "Adobe 宋体 Std L"}
+.footer_Navigation .discount{padding:0;}
+.address{padding:20px 0 20px 0;width:1190px; margin:0 auto}
+.spacing{padding:0 0 15px 0;}
+.address_info p{color:#d8d8d8; font:14px/18px "Adobe 宋体 Std L"}
+.WeChat{float:right; padding:0 0 0 40px; border-left:1px solid #333;width: 518px;}
+.WeChat img{float:left;padding:0 20px 0 0;}
+.WeChat p{color:#d8d8d8; font-size:16px; font-family:"微软雅黑"}
+.WeChat b{font-size:24px; font-weight:normal;}
+.WeChat span{color:#e52d47;font-size:24px;}
+.WeChat .tion{font-size:14px;}
+.WeChat .name{font-size:24px; padding:6px 0px;}
+.friendlink{background:#212121;padding:20px 0px;}
+.friendlink_Width{width:1190px; margin:0 auto; overflow:hidden;}
+.friendlink h3{font:30px Impact; color:#FFF; padding:0 0 20px 0;}
+.friendlink h3 span{font-family:"微软雅黑"; font-size:18px; color:#FFF;padding:0 0 0 10px;}
+.friendlink ul li{float:left;line-height:18px; white-space:nowrap;}
+.friendlink ul li a{color:#d8d8d8; font-size:12px;border-right:1px solid #d8d8d8;padding:0 8px 0 8px;}
+.friendlink ul li a:hover,.footer dd a:hover{color:#FFF; text-decoration:underline}
+.copyright{overflow:hidden;padding:20px 0px;width:1190px; margin:0 auto}
+.copyright p{font-size:12px; color:#d8d8d8; font-family:"Adobe 宋体 Std L"}
+.copyright .copyright_left{float:right;}
+.copyright .copyright_right{float:left;}
